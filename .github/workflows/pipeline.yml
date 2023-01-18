@@ -20,6 +20,6 @@ jobs:
       - name: Lint
         run: npm run lint
       - name: build
-        run: rpm run build
+        run: npm run build
       - name: test
         run: npm run test:unit
