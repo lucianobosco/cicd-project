@@ -3,7 +3,8 @@ module.exports = {
   root: true,
   'extends': [
     'plugin:vue/vue3-essential',
-    'eslint:recommended'
+    'eslint:recommended',
+    "plugin:cypress/recommended"
   ],
   overrides: [
     {
@@ -18,5 +19,10 @@ module.exports = {
   ],
   parserOptions: {
     ecmaVersion: 'latest'
+  },
+  env: {
+    browser: true,
+    node: true,
+    es6: true
   }
 }
