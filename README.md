@@ -1,3 +1,5 @@
+[![Deployment Pipeline](https://github.com/lucianobosco/cicd-project/actions/workflows/pipeline.yml/badge.svg)](https://github.com/lucianobosco/cicd-project/actions/workflows/pipeline.yml)
+
 # cicd-project
 
 This template should help get you started developing with Vue 3 in Vite.
